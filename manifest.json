@@ -1,0 +1,28 @@
+{
+    "name" : "test",
+    "manifest_version": 2 ,
+    "version":"1.0.0",
+    "description": "A test extension",
+    "icons":{
+        "128":"icon90.png",
+        "48":"icon60.png",
+        "16":"icon30.png"
+    },
+
+    "browser_action":{
+        "default_icon":"icon30.png",
+        "default-title": "test",
+        "default_popup": "popup.html"
+    },
+
+    "background":{
+        "scripts": ["background.js"]
+    },
+
+    "permissions":[
+    "tabs",
+    "<all_urls>"
+    ]
+   
+
+}
